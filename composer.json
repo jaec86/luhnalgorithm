@@ -1,0 +1,23 @@
+{
+    "name": "zeerbyte/luhn_algorithm",
+    "description": "Question 1 for Stack Builders test",
+    "authors": [
+        {
+            "name": "Javier Estupinan",
+            "email": "jestupinan@zeerbyte.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
